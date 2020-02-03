@@ -1,6 +1,8 @@
 # OpenTracing Propagation Example
 Propagation in OpenTracing uses inject/extract functions to add/read the SpanContext. This example injects/extracts HTTP headers sent from client -> server.
 
+HEAVY use of copy+paste. Look @ Resources for source code
+
 ## Components
 *Note*: Examples use Jaeger to receive traces. Can use the [Jaeger All-in-one Docker image](https://www.jaegertracing.io/docs/1.8/getting-started/#all-in-one) to get started.
 To run:
